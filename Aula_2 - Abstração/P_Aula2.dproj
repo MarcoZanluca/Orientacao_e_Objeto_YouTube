@@ -1,6 +1,6 @@
 ﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 		<PropertyGroup>
-			<ProjectGuid>{CA2F1BED-BB45-4D40-81F9-03BC335FCF17}</ProjectGuid>
+			<ProjectGuid>{1D3B1603-D274-4F19-B41C-991FED30A8DC}</ProjectGuid>
 			<ProjectVersion>12.0</ProjectVersion>
 			<MainSource>P_Aula2.dpr</MainSource>
 			<Config Condition="'$(Config)'==''">Debug</Config>
@@ -43,9 +43,10 @@
 			<DelphiCompile Include="P_Aula2.dpr">
 				<MainSource>MainSource</MainSource>
 			</DelphiCompile>
-			<DCCReference Include="U_Aula2.pas">
+			<DCCReference Include="..\Aula_3 - Encapsulamento\view.principal.pas">
 				<Form>Form1</Form>
 			</DCCReference>
+			<DCCReference Include="..\Aula_1 - Principais_Conceitos\pessoa.pas"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

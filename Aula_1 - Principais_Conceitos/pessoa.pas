@@ -5,10 +5,11 @@ interface
 type
   TPessoa = class
    private
-     FCPF : String;
    public
-     nome : String;
-     property CPF : String read FCPF write FCPF;
+     Id: Integer;
+     Nome: String;
+     Tipo: String;
+     Email: String;
   end;
 
 implementation

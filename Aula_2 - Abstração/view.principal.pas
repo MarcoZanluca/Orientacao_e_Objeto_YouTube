@@ -1,4 +1,4 @@
-unit U_Aula2;
+unit view.principal;
 
 interface
 
@@ -45,12 +45,11 @@ var
 begin
   pessoa:= TPessoa.Create;
   try
-    pessoa.nome := 'Marco';
-    pessoa.CPF := '123.456.789-10';
-    ShowMessage(pessoa.nome);
-    ShowMessage(pessoa.CPF);
-    //pessoa.cpf := 'ddddd';
-
+    pessoa.Id := 1;
+    pessoa.Nome := 'Marco';
+    pessoa. Tipo := 'F';
+    pessoa.Email := 'marco@gmail.com';
+    ShowMessage(IntToStr(pessoa.Id) + ' - ' + pessoa.nome + ' - ' + pessoa.Tipo + ' - ' + pessoa.Email);
   finally
     pessoa.Free;
   end;
