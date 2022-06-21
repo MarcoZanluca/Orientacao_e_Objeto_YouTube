@@ -61,10 +61,10 @@ begin
     Memo1.Lines.Add('Usuário: ' + usuario.Contrato);
 
 
-    Memo2.Lines.Add('============Pessoa============');
-    Memo2.Lines.Add(pessoa.RetornaDados);
-    Memo2.Lines.Add('============================');
-    Memo1.Lines.Add('');
+//    Memo2.Lines.Add('============Pessoa============');
+//    Memo2.Lines.Add(pessoa.RetornaDados);
+//    Memo2.Lines.Add('============================');
+//    Memo1.Lines.Add('');
     Memo2.Lines.Add('============Cliente============');
     Memo2.Lines.Add(cliente.RetornaDados);
     Memo2.Lines.Add('============================');

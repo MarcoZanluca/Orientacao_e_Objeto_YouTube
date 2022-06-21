@@ -11,6 +11,7 @@ type
   private
     FCPF: String;
   public
+    constructor Create;
     property CPF: String read FCPF write FCPF;
     function RetornaDados: String; override;
     function Contrato: String; override;
@@ -23,6 +24,11 @@ implementation
 function TCliente.Contrato: String;
 begin
   Result := 'TCliente Contrato';
+end;
+
+constructor TCliente.Create;
+begin
+  Nome := 'Alessandro';
 end;
 
 function TCliente.RetornaDados: String;
