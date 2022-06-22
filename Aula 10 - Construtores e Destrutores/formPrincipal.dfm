@@ -27,9 +27,6 @@ object Form1: TForm1
     Top = 63
     Width = 297
     Height = 202
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 1
-    OnChange = Memo1Change
   end
 end

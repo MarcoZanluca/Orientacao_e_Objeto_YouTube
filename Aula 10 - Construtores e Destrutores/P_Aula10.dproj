@@ -46,6 +46,7 @@
 			<DCCReference Include="formPrincipal.pas">
 				<Form>Form1</Form>
 			</DCCReference>
+			<DCCReference Include="endereco.pas"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>

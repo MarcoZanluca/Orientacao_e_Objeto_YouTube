@@ -2,7 +2,8 @@ program P_Aula10;
 
 uses
   Forms,
-  formPrincipal in 'formPrincipal.pas' {Form1};
+  formPrincipal in 'formPrincipal.pas' {Form1},
+  endereco in 'endereco.pas';
 
 {$R *.res}
 
