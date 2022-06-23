@@ -46,7 +46,7 @@
 			<DCCReference Include="formPrincipal.pas">
 				<Form>Form1</Form>
 			</DCCReference>
-			<DCCReference Include="endereco.pas"/>
+			<DCCReference Include="..\Aula 10 - Construtores e Destrutores\endereco.pas"/>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
@@ -101,6 +101,7 @@
 						<VersionInfoKeys Name="Comments"/>
 					</VersionInfoKeys>
 				</Delphi.Personality>
+				<ModelSupport>False</ModelSupport>
 			</BorlandProject>
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>

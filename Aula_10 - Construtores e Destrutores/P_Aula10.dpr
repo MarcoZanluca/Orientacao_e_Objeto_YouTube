@@ -1,8 +1,9 @@
-program POO_YT;
+program P_Aula10;
 
 uses
   Forms,
-  formPrincipal in 'formPrincipal.pas' {Form1};
+  formPrincipal in 'formPrincipal.pas' {Form1},
+  endereco in '..\Aula 10 - Construtores e Destrutores\endereco.pas';
 
 {$R *.res}
 

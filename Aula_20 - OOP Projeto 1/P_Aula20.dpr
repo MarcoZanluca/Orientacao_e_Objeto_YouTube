@@ -1,9 +1,11 @@
-program P_Aula10;
+program P_Aula20;
 
 uses
   Forms,
   formPrincipal in 'formPrincipal.pas' {Form1},
-  endereco in 'endereco.pas';
+  pessoa in 'pessoa.pas',
+  vendedor in 'vendedor.pas',
+  administrativo in 'administrativo.pas';
 
 {$R *.res}
 
