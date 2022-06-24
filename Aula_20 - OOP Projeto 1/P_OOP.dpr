@@ -1,4 +1,4 @@
-program P_Aula20;
+program P_OOP;
 
 uses
   Forms,
